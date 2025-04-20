@@ -16,3 +16,4 @@ us
 tqdm
 openpyxl
 matplotlib
+contextily
