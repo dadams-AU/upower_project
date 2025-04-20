@@ -1,0 +1,18 @@
+# requirements.txt
+
+psycopg2-binary>=2.9
+sqlalchemy>=2.0
+geoalchemy2>=0.14
+ipython
+notebook
+jupyterlab
+pandas
+geopandas
+shapely
+fiona
+python-dotenv
+census
+us
+tqdm
+openpyxl
+matplotlib
