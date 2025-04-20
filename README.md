@@ -44,7 +44,7 @@ project-root/
 2. Set up the PostGIS database:
 
    - Ensure PostgreSQL + PostGIS is installed and running
-   - Edit the database credentials in `notebooks/init_postgis_db.ipynb`
+   - Edit the database credentials in `sql/create_db_schema.ipynb`
    - Run the notebook to create tables
 
 3. Install Python dependencies:
@@ -60,9 +60,9 @@ project-root/
 | Domain                     | Source                                         |
 |---------------------------|------------------------------------------------|
 | Economic & Demographic    | ACS, BEA, QCEW, IRS SOI                        |
-| Local Government Finance  | Census of Governments, PA Department of Rev.  |
+| Local Government Finance  | Census of Governments,                        |
 | Environmental Quality     | TRI, AQS, CAMD, NWIS, FracFocus, NASA/NOAA    |
-| Health Outcomes           | CDC WONDER, BRFSS, State Health Depts         |
+| Health Outcomes           | CDC WONDER, BRFSS, State Health Depts, OSHA   |
 | Regulatory Data           | TRRC, COGCC, NCSL, IOGCC                       |
 | Methane Emissions         | EPA Gridded Methane, MethaneSAT, GHGRP        |
 
